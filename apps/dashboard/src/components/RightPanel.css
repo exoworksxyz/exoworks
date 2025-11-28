@@ -1,0 +1,23 @@
+.right-panel {
+  width: 320px;
+  background: #111111;
+  border-left: 1px solid #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.right-panel-section {
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.right-panel-header {
+  padding: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+  border-bottom: 1px solid #1a1a1a;
+}
+
