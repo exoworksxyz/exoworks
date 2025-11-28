@@ -1,0 +1,20 @@
+{
+  "name": "exoworks-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ExoWorks - Visual workflow engine for building and automating on-chain applications on Solana",
+  "scripts": {
+    "build": "pnpm --filter @exoworks/sdk build && pnpm --filter exoworks-dashboard build",
+    "dev": "pnpm --filter exoworks-dashboard dev",
+    "lint": "pnpm --recursive lint"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
+
